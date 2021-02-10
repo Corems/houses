@@ -1,5 +1,5 @@
 <template>
-    <el-container style="border: 1px solid #eee" v-loading.fullscreen.lock="fullscreenLoading">>
+    <el-container style="border: 1px solid #eee" v-loading.fullscreen.lock="fullscreenLoading">
         <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
             <el-menu>
                 <el-submenu v-for="(filter, name, index) in filters" :key="index" :index="index + ''">
